@@ -1,0 +1,14 @@
+
+nav ul {
+    list-style: none;
+}
+nav li a:hover {
+    color: red;
+    background: mediumvioletred;
+}
+nav ul li a {
+    background: rosybrown;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    border-right: solid;
+}

@@ -1,0 +1,24 @@
+.test{
+    font-weight:bold;<!--加粗 -->
+    font-family: Dialog;<!--字体 -->
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    background-color: aqua;
+    text-decoration: underline;<!--下划线 -->
+    font-style: italic;<!--斜体 -->
+    text-indent: 2em;<!--段落开头空两个 -->
+    letter-spacing: 20px;<!--字体间隔 -->
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    background-image: url("../image/b.png");
+   /* background-attachment: fixed;<!--固定图片的位置 -->*/
+    background-size: 100% 100%;<!--显示原来图片的大小 -->
+}
+.style{
+    border: solid red 1px;
+    width: 200px;
+    height: 200px;
+}

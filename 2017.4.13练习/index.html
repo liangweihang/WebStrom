@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>回调</title>
+</head>
+<body>
+<script>
+   /* var callback1 = function () {
+        console.log("帅"+name);
+        return "callback"+name;
+    }
+    function  test1(name,callback2) {
+        callback2("");
+    }
+    test1("梁伟航",callback1);
+*/
+
+   /*var callback = function (name) {
+       console.log(name);
+   }
+
+   function test2(callback1,callback2) {
+       callback1("zhangfei");
+       callback2(20);
+   }
+   test2(callback,function (response) {
+       console.log("----" + response);
+   })*/
+
+
+
+
+
+
+    /*var callback=function (name) {
+        console.log(name)
+    }
+    function test(callback1,callback2) {
+        callback1("梁伟航");
+        callback2(30);
+    }
+    test(callback,function (ko) {
+        console.log("sss"+ko);
+    })*/
+
+
+var callback=function (name) {
+    console.log(name);
+}
+
+function test(callback1,callback2) {
+    callback1("梁伟航真帅");
+    callback2(100);
+}
+
+test(callback,function (ko) {
+    console.log(ko);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

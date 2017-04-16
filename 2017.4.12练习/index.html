@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>层级模型</title>
+   <!-- 绝对定位：position:absolute 位置参考最接近的一个具有定位属性的父包含块
+    属性  left right top bottom 如果没有父定位容器则参考浏览器
+    相对定位：position：relative 相对父控件原来的位置   原来的位置还保留
+    固定定位：position：fixed 相对移动的坐标是当前屏幕的视图
+    定位的特点:1.精确定位  2.脱离文档流-->
+    <!--<script src="JavaScript.js"></script>-->
+</head>
+<body>
+  <!--<script>
+      a=123;
+      console.log("隐士声明"+a);
+      var a="123";
+      console.log("显示声明"+a);
+      var b;
+      console.log("值不变"+b);
+      var c;
+      console.log("undifined"+c);
+      var d="大宁"
+      var test1=function () {
+          d="张瑞凯"
+          console.log("undifined"+d);
+      }
+      test1();
+  </script>-->
+<!--<script>
+    var test2 = function () {
+        var flag=true;
+        if (flag){
+            var username="haha"
+            for(var i=0;i<2;i++);
+        }
+        document.write(flag+":"+username+":"+i);
+        console.log(flag+""+username+""+i);
+    }
+       test2();
+</script>-->
+<script>
+
+  /*  var a=123;
+    var b="100"
+    document.write(a-b+"dsadk");
+
+    document.write(a+parseInt(b));
+    var c=true;
+    console.log(parseInt(c)+":"+parseFloat(c)+""+c.toString()+"");
+
+    var num1=9e10;
+    var num2=9e-10;
+    document.write(num1+""+num2);*/
+  //
+
+
+
+
+
+  /* function test2(num) {
+       if (typeof (num) =="number"){
+           if (num==2){
+               document.write(num+"22");
+           }else {
+               test2(num-1);
+           }
+       }else {
+           document.write("not a number");
+       }
+   }
+  test2(5);*/
+
+</script>
+  <p id="con">JavaScript</p>
+  <script type="text/javascript">
+      var mychar=document.getElementById("con").style.color="red";
+      document.write("结果:"+mychar); //输出获取的P标签。
+  </script>
+</body>
+</html>
