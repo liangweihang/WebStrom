@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>北京八维研修学院-测评系统</title>
+</head>
+<body>
+<view>
+    <div id="title" style="background-color: #f8f8f8;">
+        <a style="line-height:50px; font-size:20px; margin-left:10px;
+    text-decoration:none; color:#000;">北京八维测评系统</a>
+        <p style="float:right; margin-right:10px;  color:#000;">
+            李利红
+        </p>
+        <div class="container-fluid"style="border-bottom: solid 1px gray">
+            <h3 align="center">任课教师教学效果满意度测评表(专业)</h3>
+    </div>
+
+        </div>
+           <div id="con" style="display:block">
+             <div class="form" style="text-indent: 2em;">
+                 <h4 align="center"> 亲爱的同学，您好！
+                     为了充分了解学生对任课教师教学的满意程度，改善老师课堂教学质<br/>量，提高教学水平，请同学们对教师进行满意度的评价。
+                     同学们只能在以下选项中选一项。</h4>
+               </div>
+               <div style="padding-left: 350px;width: 1500px;height: 200px;border-bottom: solid 1px gray">
+                   <span  style="color: blue;">部门：<span style="color: black;">职能部门</span><br/></span>
+                   <span style="color: blue;">处室：<span style="color: black;">就业处</span><br/></span>
+                   <span style="color: blue;">姓名：<span style="color: black;">李利红</span><br/></span>
+               </div>
+                   <button style="margin-top: 150px;margin-left: 620px;margin-bottom: 100px ; width: 85px ; height: 34px ;background-color: coral ; color: white" onclick="test()">开始测评</button>
+           </div>
+
+
+       <div id="context_1" class="form-group" style="display: none;padding-left: 510px;width: 1500px;height: 200px;border-bottom: solid 1px gray">
+        <h4>1、教师上课的时间？</h4>
+        <input name="topicId" value="121" type="hidden">
+
+        <div class="radio">
+            <label><input name="121" value="123" type="radio">准时进班</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="121" value="122" type="radio">提前进班</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="121" value="124" type="radio">偶尔迟到</label>
+        </div>
+        <div class="radio">
+            <label><input name="121" value="125" type="radio">经常迟到</label>
+        </div>
+           <button style="margin-top: 150px;margin-left: 100px" onclick="test()">好了</button>
+       </div>
+
+           <div id="context_2" class="form-group" style="display: none;padding-left: 510px;width: 1500px;height: 200px;border-bottom: solid 1px gray" >
+               <h4>2、教师是否有违反教师规范的行为？</h4>
+               <input name="topicId" value="131" type="hidden">
+
+               <div class="radio">
+                   <label><input name="131" value="132" type="radio">完全没有</label>
+               </div>
+
+               <div class="radio">
+                   <label><input name="131" value="134" type="radio">经常有</label>
+               </div>
+
+               <div class="radio">
+                   <label><input name="131" value="133" type="radio">偶尔有</label>
+               </div>
+
+               <div class="radio">
+                   <label><input name="131" value="135" type="radio">天天有</label>
+               </div>
+               <button style="margin-top: 150px;margin-left: 100px" onclick="test()">好了</button>
+    </div>
+
+    <div id="context_3" class="form-group" style="display: none;padding-left: 510px;width: 1500px;height: 200px;border-bottom: solid 1px gray" >
+        <h4>3、当天课程结束后，教师是否布置作业？</h4>
+        <input name="topicId" value="151" type="hidden">
+
+        <div class="radio">
+            <label><input name="151" value="152" type="radio">每天布置 并检查讲解</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="151" value="155" type="radio">不布置</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="151" value="153" type="radio">每天布置 并少量抽查讲解</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="151" value="154" type="radio">很少布置</label>
+        </div>
+        <button style="margin-top: 150px;margin-left: 100px" onclick="test()">好了</button>
+    </div>
+
+    <div id="context_4" class="form-group" style="display: none;padding-left: 510px;width: 1500px;height: 200px;border-bottom: solid 1px gray" >
+        <h4>4、在学习中遇到问题，教师是否能及时耐心解答或辅导你？</h4>
+        <input name="topicId" value="156" type="hidden">
+
+        <div class="radio">
+            <label><input name="156" value="159" type="radio">很少解答或辅导</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="156" value="160" type="radio">不解答或辅导</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="156" value="158" type="radio">有时解答或辅导</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="156" value="157" type="radio">经常解答或辅导</label>
+        </div>
+
+        <button style="margin-top: 150px;margin-left: 100px" onclick="test()">好了</button>
+    </div>
+
+    <div id="context_5" class="form-group" style="display: none;padding-left: 510px;width: 1500px;height: 200px;border-bottom: solid 1px gray" >
+        <h4>5、教师平时的言行对你的影响？</h4>
+        <input name="topicId" value="126" type="hidden">
+
+        <div class="radio">
+            <label><input name="126" value="127" type="radio">受益匪浅</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="126" value="128" type="radio">积极向上</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="126" value="129" type="radio">没感觉</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="126" value="130" type="radio">负能量</label>
+        </div>
+
+        <button style="margin-top: 150px;margin-left: 100px" onclick="test()">好了</button>
+    </div>
+
+    <div id="context_6" class="form-group" style="display: none;padding-left: 510px;width: 1500px;height: 200px;border-bottom: solid 1px gray" >
+        <h4>6、你是否喜欢听教师的课？</h4>
+        <input name="topicId" value="141" type="hidden">
+
+        <div class="radio">
+            <label><input name="141" value="145" type="radio">不喜欢</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="141" value="142" type="radio">特别喜欢</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="141" value="143" type="radio">比较喜欢</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="141" value="144" type="radio">一般</label>
+        </div>
+        <button style="margin-top: 150px;margin-left: 100px" onclick="test()">好了</button>
+    </div>
+    <div id="context_7" class="form-group" style="display: none;padding-left: 510px;width: 1500px;height: 200px;border-bottom: solid 1px gray" >
+        <h4>7、教师在课堂上是否有提问与学生有互动？</h4>
+        <input name="topicId" value="146" type="hidden">
+
+        <div class="radio">
+            <label><input name="146" value="150" type="radio">无提问 不互动</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="146" value="148" type="radio">偶尔提问 并互动</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="146" value="149" type="radio">偶尔提问 不互动</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="146" value="147" type="radio">经常提问 并互动</label>
+        </div>
+        <button style="margin-top: 150px;margin-left: 100px" onclick="test()">好了</button>
+    </div>
+
+    <div id="context_8" class="form-group" style="display: none;padding-left: 510px;width: 1500px;height: 200px;border-bottom: solid 1px gray" >
+        <h4>8、课堂讲授能否让你听懂？</h4>
+        <input name="topicId" value="136" type="hidden">
+
+        <div class="radio">
+            <label><input name="136" value="140" type="radio">完全听不懂</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="136" value="139" type="radio">偶尔听懂</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="136" value="137" type="radio">全部听懂</label>
+        </div>
+
+        <div class="radio">
+            <label><input name="136" value="138" type="radio">部分听懂</label>
+        </div>
+
+        <button style="margin-top: 150px;margin-left: 100px" onclick="test()">提交</button>
+    </div>
+
+    <div id="context_9" class="form-group" style="display: none;padding-left: 510px;width: 1500px;height: 200px;border-bottom: solid 1px gray" >
+        <h4 style="padding-left: 50px;padding-top: 80px">    提交完毕！谢谢配合</h4>
+    </div>
+</view>
+</body>
+<script>
+    function test() {
+        if (document.getElementById("con").style.display == "block"){
+            document.getElementById("con").style.display = "none"
+            document.getElementById("context_1").style.display = "block"
+        }else if(document.getElementById("context_1").style.display == "block"){
+            document.getElementById("context_1").style.display = "none"
+            document.getElementById("context_2").style.display = "block"
+        }else if(document.getElementById("context_2").style.display == "block"){
+            document.getElementById("context_2").style.display = "none"
+            document.getElementById("context_3").style.display = "block"
+        }else if(document.getElementById("context_3").style.display == "block"){
+            document.getElementById("context_3").style.display = "none"
+            document.getElementById("context_4").style.display = "block"
+        }else if(document.getElementById("context_4").style.display == "block"){
+            document.getElementById("context_4").style.display = "none"
+            document.getElementById("context_5").style.display = "block"
+        }else if(document.getElementById("context_5").style.display == "block"){
+            document.getElementById("context_5").style.display = "none"
+            document.getElementById("context_6").style.display = "block"
+        }else if(document.getElementById("context_6").style.display == "block"){
+            document.getElementById("context_6").style.display = "none"
+            document.getElementById("context_7").style.display = "block"
+        }else if(document.getElementById("context_7").style.display == "block"){
+            document.getElementById("context_7").style.display = "none"
+            document.getElementById("context_8").style.display = "block"
+        }else if(document.getElementById("context_8").style.display == "block"){
+            document.getElementById("context_8").style.display = "none"
+            document.getElementById("context_9").style.display = "block"
+            document.getElementById("bu").style.display = "none"
+        }
+
+    }
+</script>
+</html>

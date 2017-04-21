@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常用内置类</title>
+</head>
+<body>
+<script>
+    //array  数组
+    var arr1=[1,"abc",true,function test() {
+        return "from function";
+    }];
+    var arr2=[];
+    var arr3=new Array();
+   arr3[0]=1;
+   arr3[1]="abc";
+    arr3[2]="yyy";
+
+    var arr4=new Array(1,"abc","5555","8888");
+
+   // arr4.unshift("0");//追加
+    arr4.splice(1,2,1,9);//删除 第一个是从哪个开始  第二个是删到哪个
+    //arr4.push("4");//Java下的add 向末尾追加
+   // arr4=arr4.concat(arr1,arr4);//合并
+    document.write("come from array"+arr4);
+
+    var value="h1 come from array ";
+
+    var str="我有一个梦想 找一个女朋友";
+   // document.write("<h1>"+str).indexOf("梦想");
+
+
+
+   // document.write("<h1>"+value+"<h1>");
+</script>
+</body>
+</html>
